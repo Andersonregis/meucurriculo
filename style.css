@@ -1,6 +1,7 @@
 /* RESET CSS */
 html * {
     margin: 0px;
+    text-decoration: none;
 }
 
 #cabecalho {
@@ -55,10 +56,21 @@ h1, h2{
     width: 300px;
 
     /* COR DE FUNDO */
-    background-color: #808080;
+    background-color: #f1ebeb;
     
     /* ESPAÇAMENTO */
     margin: 20px;
+
+    /* ATIVA O MODO FLEXIVEL */
+    display: flex;
+    
+    /* PARA CENTRALIZAR IMAGEM */
+    justify-content: center;
+    
+    /* ALINHA VERTICAL */
+    align-items: CENTER;
+
+    color: blue;
 }
 
 #rodape {
